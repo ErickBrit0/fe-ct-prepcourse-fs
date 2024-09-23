@@ -5,8 +5,7 @@ function obtenerResto(x, y) {
   // 10, 5 ---> 0
   // 16, 5 ---> 1
   // Tu código:
-  let resultado5 = x % y;
-  return resultado5;
+  return (x % y);
 }
 
 module.exports = obtenerResto;
